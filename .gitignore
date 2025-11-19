@@ -13,13 +13,11 @@ license-header.txt
 dist/
 
 # VS Code IDE
-.vscode/**/*
 !.vscode/extensions.json
 !.vscode/launch.json
 !.vscode/tasks.json
 
 # Local env files
-.env
 !.env.example
 
 # this is for jetbrain IDEs
@@ -34,7 +32,6 @@ src/emulator/release/
 # vscode
 # ======================================================================
 # vscode configuration
-.vscode/
 
 # JS language server, ref: https://code.visualstudio.com/docs/languages/jsconfig
 jsconfig.json
@@ -64,3 +61,4 @@ AGENTS.md
 
 # source maps
 *.map
+config.bat
