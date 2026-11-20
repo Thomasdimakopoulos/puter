@@ -45,7 +45,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "node init && grunt build",
+    "build": "grunt build",
     "lint": "grunt lint",
     "test:server": "node tests/runner/server.js",
     "test:unit": "node tests/runner/command.js",
